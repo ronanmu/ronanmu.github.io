@@ -5,7 +5,7 @@ email: blog@ronanmurray.ie
 copyright_name: Ronan Murray
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "" #"/startbootstrap-clean-blog-jekyll"
-url: "" #"http://yourdomain.com"
+url: "http://blog.ronanmurray.ie" #"http://yourdomain.com"
 #twitter_username: ronanmu
 #github_username:  ronanmu
 #facebook_username:  StartBootstrap
@@ -14,7 +14,7 @@ timezone: Europe/Dublin
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: "UA-25333154-1"
 
 # Build settings
 markdown: kramdown
@@ -23,4 +23,4 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate, jekyll-feed, jekyll-email-protect, liquid_reading_time]

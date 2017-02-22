@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Starting out."
+subtitle:	"How did this all come about"
 date:       2017-02-11 12:00:00
 author:     "Ronan"
 header-img: "img/post-bg-02.jpg"

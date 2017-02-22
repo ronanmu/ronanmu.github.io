@@ -6,7 +6,8 @@ description: "Booker Blog"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
+        <h2 class="post-title">
+            {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
@@ -14,7 +15,10 @@ description: "Booker Blog"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+     {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}.
+        Reading time about {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}.</i></p>
 </div>
 <hr>
 {% endfor %}

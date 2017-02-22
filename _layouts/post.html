@@ -12,7 +12,8 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    {% capture time %}{{ page.content | reading_time }}{% endcapture %}
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}. Reading time {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}</span>
                 </div>
             </div>
         </div>
