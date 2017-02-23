@@ -1,0 +1,12 @@
+ - name: Solari font
+   url: http://www.dafont.com/solari.font
+   desc: Font inspired by Solari departure boards formerly seen in airports around the world
+ - name: Ubuntu font
+   url: http://font.ubuntu.com
+   desc: Font created by the Ubuntu project
+ - name: Pixabay
+   url: https://pixabay.com
+   desc: Free stock images used in Booker and on this blog
+ - name: Bootstrap Clean Blog
+   url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
+   desc: Base template for this blog    

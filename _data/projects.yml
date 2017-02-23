@@ -1,0 +1,11 @@
+ - name: General insurance website
+   tech: Webflow, Security, Remoting with Hessian/Burlap, iBatis, Castor
+
+ - name: Online banking website
+   tech: Security, Webflow, Core, JMS
+
+ - name: Retail bank BPM intranet portal
+   tech: MVC, Core  
+
+ - name: Airline integration services tier
+   tech: Data, REST, Security, WS, Batch, Integration, Boot

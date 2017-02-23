@@ -1,25 +1,19 @@
 ---
 layout:     post
-title:      "Starting out."
-subtitle:	"How did this all come about"
+title:      "Starting out"
+subtitle:	"How did this all come about?"
 date:       2017-02-11 12:00:00
 author:     "Ronan"
 header-img: "img/post-bg-02.jpg"
 ---
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+<p>I've always had an interest in computing &amp; travel, so bringing those both together seemed like a natural choice. I wanted to put together a project which meant that I could explore some new shiny tech that I might not use in my day job, and produce a demonstration site that could showcase how to put these technologies to use in an (almost!) realworld application.</p>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<p>And so <em>Booker</em> was born.</p>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<h2 class="section-heading">What is Booker?</h2>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<p>Booker is a demo airline website, that enabled me to try out a number of cool tech approaches and technologies. Most of these centre around microservices, auto scaling, cloud provisioning, PaaS &amp; IaaS stacks, containers,  along with some learnings for me on front end and app development, which I don't typically get to spend a lot of time trying out.</p>
 
 <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 

@@ -1,0 +1,21 @@
+---
+layout: page
+title: "Credits"
+description: "With thanks to..."
+header-img: "img/station-bg.jpg"
+---
+
+<p>I've picked up some interesting tidbits of info or inspiration along the way as I was researching, designing and building <em>Booker</em>, listed here, in no particular order.</p>
+
+<ul>
+{% for credit in site.data.credits %}
+  <li>
+    <a href="{{ credit.url }}" target="_blank">{{ credit.name }}</a>:
+    <ul>
+        <li>
+            <em>{{ credit.desc }}</em>
+        </li>
+    </ul>   
+  </li>
+{% endfor %}
+</ul>   

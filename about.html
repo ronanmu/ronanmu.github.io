@@ -1,12 +1,30 @@
 ---
 layout: page
 title: "About"
-description: "This is what I do."
-header-img: "img/about-bg.jpg"
+description: "Find out about me"
+header-img: "img/dublin-bg.jpg"
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+<h2 class="section-heading">Hi!</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+<p>My name is Ronan and I'm IT architect &amp; consultant by trade, living &amp; working in <a href="http://dublin.ie" target="_blank">Dublin</a>, Ireland. I've worked in various industries in my career to date, from local &amp; central government, financial services including general &amp; life insurance, retail banking &amp; pensions, and aviation and marketing tech, across Ireland, the UK, Europe, North America &amp; the the Middle East.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
+<p>While I've worked with lots of different technology stacks and platforms, I'm most at home with Java/JEE and a big fan of <a href="http://spring.io" target="_blank">Spring</a>, which forms the basis of the <em>Booker</em> project. I've been using Spring since version 1.2.6 (from 2006 <i class="fa fa-smile-o" aria-hidden="true"></i>) and have had the opportunity to use most projects from the Spring portfolio in my professional career. I even tried Spring.NET, anyone remember that?</p>
+
+
+<h2 class="section-heading">Past projects</h2>
+<p>Here's some examples of where I've used the Spring portfolio of products over the past 11 years. In each of these I was either lead developer/architect or consulting on technology selection.	
+</p>
+
+<ul>
+{% for project in site.data.projects %}
+  <li>
+  	{{ project.name }}:
+  	<ul>
+  		<li>
+  			<em>{{ project.tech }}</em>
+  		</li>
+  	</ul>	
+  </li>
+{% endfor %}
+</ul>	

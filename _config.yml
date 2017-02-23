@@ -1,6 +1,6 @@
 # Site settings
 title: Booker Blog
-header-img: img/home-bg.jpg
+header-img: img/maldives-bg.jpg
 email: blog@ronanmurray.ie
 copyright_name: Ronan Murray
 description: "Write your site description here. It will be used as your sites meta description as well!"
@@ -10,6 +10,7 @@ url: "http://blog.ronanmurray.ie" #"http://yourdomain.com"
 #github_username:  ronanmu
 #facebook_username:  StartBootstrap
 email_username:  blog@ronanmurray.ie
+linkedin_username: ronanmurray
 timezone: Europe/Dublin
 
 # Google Analytics
